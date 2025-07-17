@@ -11,7 +11,7 @@ import static base.BaseClass.driver;
 public class HomePage {
     Action action = new Action();
 
-    @FindBy(xpath = "//button[@type='submit']")
+    @FindBy(xpath = "//button[@type='submit9empty']")
     WebElement searchButton;
     @FindBy(xpath = "//input[@name='q']")
     WebElement searchProductBox;
