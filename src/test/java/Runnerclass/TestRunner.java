@@ -16,6 +16,6 @@ import static base.BaseClass.driver;
         tags = "@SamsungMobile", // Tags to filter scenarios
         monochrome = true // Makes console output readable
 )
-public class TestRunner extends AbstractTestNGCucumberTests { // Extend only one class
+public class  TestRunner extends AbstractTestNGCucumberTests { // Extend only one class
 
 }
