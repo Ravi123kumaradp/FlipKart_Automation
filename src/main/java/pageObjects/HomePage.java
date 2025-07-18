@@ -12,7 +12,7 @@ public class HomePage {
     Action action = new Action();
 
 
-    @FindBy(xpath = "//button[@type='submit']ravi")
+    @FindBy(xpath = "//button[@type='submit']ravi kumar")
     WebElement searchButton;
     @FindBy(xpath = "//input[@name='q']")
     WebElement searchProductBox;
