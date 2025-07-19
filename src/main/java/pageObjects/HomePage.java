@@ -15,7 +15,7 @@ public class HomePage {
 
     @FindBy(xpath = "//button[@type='submit'] kumarn")
     WebElement searchButton;
-    @FindBy(xpath = "//input[@name='q']")
+    @FindBy(xpath = "//input[@name='qrs']")
     WebElement searchProductBox;
     public HomePage() {
         PageFactory.initElements(driver, this);
