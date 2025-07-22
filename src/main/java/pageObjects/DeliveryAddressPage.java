@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 public class DeliveryAddressPage extends BaseClass {
     Action action = new Action();
 
-    @FindBy(xpath = "//input[@name='name']")
+    @FindBy(xpath = "//input[@name='nameravi']")
     WebElement nameFld;
     @FindBy(xpath = "//input[@name='phone']")
     WebElement phoneFld;
