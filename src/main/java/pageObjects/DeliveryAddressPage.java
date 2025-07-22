@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class DeliveryAddressPage extends BaseClass {
-    Action action = new Action();
+    Action action = new Action(driver);
 
     @FindBy(xpath = "//input[@name='nameravi']")
     WebElement nameFld;
